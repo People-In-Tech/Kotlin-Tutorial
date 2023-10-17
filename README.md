@@ -37,9 +37,9 @@ Kotlin provides numerous advantages over other languages:
 
 ### 🔧 Prerequisites
 
-- JDK (latest version)
-- JVM (latest version)
-- Gradle (latest version)
+- JDK: openJDK-21
+- JVM:  21
+- Gradle: gradle-8.1.1
 
 ### 🔍 Setting Up
 
