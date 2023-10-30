@@ -41,15 +41,15 @@ fun main() {
     // Example 4: Lambdas with the `it` keyword
     // If a lambda has only one parameter, you can refer to it using the `it` keyword.
     val doubleIt = { number: Int -> number * 2 }
-    val doubleItWithIt = { it * 2 }
+//    val doubleItWithIt = { it * 2 }
     println("\nDouble of 5: ${doubleIt(5)}")
-    println("Double of 5 using 'it': ${doubleItWithIt(5)}")
+//    println("Double of 5 using 'it': ${doubleItWithIt(5)}")
 
     // 🎵 Real-life example: Adjusting volume of a song.
     val adjustVolume = { volume: Int -> "Setting volume to ${volume * 2} 🎵" }
-    val adjustWithIt = { "Setting volume to ${it * 2} 🎵" }
+//    val adjustWithIt = { "Setting volume to ${it * 2} 🎵" }
     println(adjustVolume(5))
-    println(adjustWithIt(5))
+//    println(adjustWithIt(5))
 
     // Example 5: Using lambdas with collections
     val animals = listOf("cat", "dog", "elephant", "lion", "tiger")
